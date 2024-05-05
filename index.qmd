@@ -1,0 +1,74 @@
+---
+title: ""
+---
+
+``` {r, echo = FALSE, error = FALSE, warning = FALSE, message = FALSE}
+knitr::opts_chunk$set(echo = FALSE, error = FALSE, warning = FALSE, message = FALSE)
+
+library(htmltools)
+library(icons)
+library(dplyr)
+library(purrr)
+
+```
+
+``` {r}
+expItems <- dplyr::tibble(
+  img = c("img/govPE.jpg", "img/bit.jpg"),
+  pos = c("Gerente de projetos especiais",
+          "Cientista de dados"),
+  org = c("Governo do Estado de Pernambuco",
+          "BIT::Analytics"),
+  time = c("jun de 2023 - o momento · 1 ano",
+           "out de 2020 - o momento · 3 anos 8 meses")
+) |> 
+  purrr::pmap(
+    \(img, pos, org, time) {
+      div(
+        class = "exp-item",
+        img(src = img),
+        div(
+          class = "exp-text",
+          div(pos),div(org),div(time)
+        ),
+        hr()
+      )
+    }
+  )
+
+div(
+  id="profile",
+  
+  div(
+    id = "photo",
+    img(src = "/img/foto.jpg"),
+    h1("Ícaro Bernardes"),
+    div(
+      id = "contact",
+      a(href = "https://twitter.com/icarobsc",
+        icons::fontawesome$brands$twitter),
+      a(href = "https://github.com/IcaroBernardes",
+        icons::fontawesome$brands$github),
+      a(href = "https://www.linkedin.com/in/icarobsc/",
+        icons::fontawesome$brands$linkedin),
+      a(href = "https://www.instagram.com/icarobsc/",
+        icons::fontawesome$brands$instagram)
+    )
+  ),
+  
+  div(
+    id = "introduction",
+    
+    h1("Wellcome!"),
+    p("I'm a Data enthusiast (constantly on the making 😆). My journey so far is focused on the many disciplines of Data Science."),
+
+    h1("Experience"),
+    expItems
+  )
+  
+)
+
+
+```
+
+

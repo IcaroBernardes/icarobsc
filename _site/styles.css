@@ -1,0 +1,99 @@
+a {
+  transition: all .5s !important;
+}
+
+.cell-output-display {
+  overflow: hidden;
+}
+
+/* Profile */
+#profile {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#photo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 350px;
+}
+
+#photo img {
+  border-radius: 50%;
+  width: 90%;
+}
+
+#contact {
+  display: flex;
+  gap: 15px;
+}
+
+#contact a {
+  fill: #2e70f9;
+  text-decoration: none;
+}
+
+#contact a:hover, #contact a:focus {
+  fill: #003299;
+}
+
+#contact svg {
+  height: 3vw !important;
+  min-height: 20px;
+}
+
+#introduction {
+  width: 400px;
+}
+
+.exp-item {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 10px;
+  margin-bottom: 20px;
+}
+
+.exp-item img {
+  max-width: 50px;
+  max-height: 50px;
+}
+
+.exp-item hr {
+  width: 100%;
+}
+
+.exp-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.exp-text div:nth-of-type(1) {
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+.exp-text div:nth-of-type(3) {
+  font-size: 0.9em;
+  color: gray;
+}
+
+/* Footer */
+footer a {
+  border: #2e70f9 solid;
+  text-decoration: underline #2e70f9 3px !important;
+}
+
+footer a:hover, footer a:focus {
+  color: white !important;
+  transform: translateY(-2px);
+  text-decoration: underline !important;
+  text-decoration: underline white 3px !important;
+}
+
+div.nav-footer-left img {
+  fill: white;
+}
+
+
