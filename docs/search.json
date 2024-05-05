@@ -1,0 +1,37 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Ícaro Bernardes",
+    "section": "",
+    "text": "Ícaro Bernardes\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWellcome!\nI'm a Data enthusiast (constantly on the making 😆). My journey so far is focused on the many disciplines of Data Science.\nExperience\n\n\n\nGerente de projetos especiais\nGoverno do Estado de Pernambuco\njun de 2023 - o momento · 1 ano\n\n\n\n\n\n\nCientista de dados\nBIT::Analytics\nout de 2020 - o momento · 3 anos 8 meses"
+  },
+  {
+    "objectID": "portfolio.html",
+    "href": "portfolio.html",
+    "title": "",
+    "section": "",
+    "text": "Dashboard made in {flexdashboard} that includes solutions like:\n\nInput persistence through tabs;\nInput data from URL;\nHeavily customized front-end;\nUse of JS and observeEvent() to synchronize Leaflet maps;\nInteractive plots made with {echarts4r} and {plotly}, and tweaked with JS;\nTooltips made with {tippy};\nSankey plot made with {networkD3};"
+  },
+  {
+    "objectID": "portfolio.html#work-projects",
+    "href": "portfolio.html#work-projects",
+    "title": "",
+    "section": "",
+    "text": "Dashboard made in {flexdashboard} that includes solutions like:\n\nInput persistence through tabs;\nInput data from URL;\nHeavily customized front-end;\nUse of JS and observeEvent() to synchronize Leaflet maps;\nInteractive plots made with {echarts4r} and {plotly}, and tweaked with JS;\nTooltips made with {tippy};\nSankey plot made with {networkD3};"
+  },
+  {
+    "objectID": "portfolio.html#personal-projects",
+    "href": "portfolio.html#personal-projects",
+    "title": "",
+    "section": "🌱 Personal projects",
+    "text": "🌱 Personal projects\n\nDuBoisChallenge\n   \nThis dataviz project draws inspiration from the works of the Du Bois’ team in the 1900’s Paris Exposition. I reproduced them in R with slight changes and using data that shows racial inequality and Black achievements in Brazil.\n\n\nTidyTuesday\n   \nThis was my first dataviz challenge ever. It allowed me to learn a lot about data handling, especially how to use {dplyr}, {tidyr} and {purrr}.\n\n\n30DayChartChallenge\n   \nThis challenge allowed me to produce a greater variety of charts. I was able to do pictograms, tables, maps, posters and strip charts in R and Figma.\n\n\n30DayMapChallenge\n   \nI was able to make more use of Figma and the {tmap} package in this one.\n\n\nGamesNightViz\n  \nThis is my space to jam. I love videogames a lot, so it’s a joy to make dataviz works out of them.\n\n\nShiny Apps\n \nI made two simple apps to try some tricks. I made the BGG Explorer for the RStudio Table Contest of 2021. Since the UI and server have repetitive structures and logic I relied a lot on {purrr} to build them. The Lampions League Quiz is a timed quiz also built with lots of {purrr} and {shinyjs} as well.\n\n\nR Packages\n \n{dubois} was the first R package I ever created. The idea was to allow users to produce Du Bois inspired posters like the ones I made for the DuBoisChallenge but with their own data. I created only one function, but stopped when I learned others had produced similar packages with less constraints. Currently, I am developing the {carnaval} package. It is an unique package that provides easy access to both datasets on the Carnaval parade competition and color palettes inspired by the carioca Samba Schools. The package focuses on the main league of the competition (“Grupo Especial”).\n\n\nWeb Pages\n  \nI created these pages because I want to be able of building interactive pieces without being constrained to shiny. All of them are hosted using GitHub Pages. The W.E.B. DuBois Gallery is the only page I made without R functions. It shows the works I made for the DuBoisChallenge and the originals that inspired them. The GP Presidencial do Brasil shows votes for president in the 10 biggest cities of each Brazilian state. It shows the interactive poster of the chosen city using an iframe. Trekking Time provides a item-based timeline of the events of the Star Trek universe. The server logic and tooltips are made with JS. Brazil Lineup and Where in the World is Carmen Sandiego? are pages that hold interactive works I made with {ggiraph}.\n\n\nBots\n\nmanchete is a project inspired on the News Homepages project. It takes screenshots of the digital versions of the main Brazilian newspapers and publishes them on Twitter (MancheteBot) and Telegram (Manchete). This bot was developed by Bruno Mioto and myself."
+  },
+  {
+    "objectID": "portfolio.html#language-and-tools",
+    "href": "portfolio.html#language-and-tools",
+    "title": "",
+    "section": "💻 Language and tools",
+    "text": "💻 Language and tools"
+  }
+]
